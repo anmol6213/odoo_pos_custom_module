@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates xml:space="preserve">
+    <t t-name="pos_milk_price_quantity.MilkPriceQuantityButton" owl="1">
+        <button 
+            class="control-button o_milk_price_quantity_button" 
+            t-att-class="{'highlight': false}"
+        >
+            <i class="fa fa-calculator"></i>
+            <span>Milk Price</span>
+        </button>
+    </t>
+</templates>
