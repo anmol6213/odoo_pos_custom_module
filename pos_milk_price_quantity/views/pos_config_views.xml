@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="pos_config_view_form_milk_price_quantity" model="ir.ui.view">
+        <field name="name">pos.config.form.milk.price.quantity</field>
+        <field name="model">pos.config</field>
+        <field name="inherit_id" ref="point_of_sale.pos_config_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//group[@name='module_section']" position="inside">
+                <div>
+                    <field name="milk_price_quantity_enabled" 
+                           string="Milk Price Quantity"
+                           widget="boolean_toggle"/>
+                    <label for="milk_price_quantity_enabled"/>
+                </div>
+            </xpath>
+        </field>
+    </record>
+</odoo>
