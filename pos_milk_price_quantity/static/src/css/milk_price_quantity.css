@@ -1,0 +1,12 @@
+.pos .o_milk_price_quantity_button {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.pos .o_milk_price_quantity_button:hover {
+    background-color: #1976D2;
+}
